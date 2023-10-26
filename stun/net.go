@@ -23,9 +23,9 @@ import (
 )
 
 const (
-	numRetransmit  = 9
-	defaultTimeout = 100
-	maxTimeout     = 1600
+	numRetransmit  = 3
+	defaultTimeout = 300
+	maxTimeout     = 900
 	maxPacketSize  = 1024
 )
 
